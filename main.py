@@ -9,7 +9,9 @@ phonebook = {
 }  
 # Your code goes here:
 
-
+phonebook["Jake"] = 938273443
+phonebook.pop("Jill")
+print(phonebook)
 
 
 
@@ -24,7 +26,16 @@ phonebook = {
 # likeCoding (which contains a bool, True if you like coding and False if you don’t like coding)
 # Then, print aboutMe
 
-
+about_me = {
+    "name" : "Momina Alam Khan",
+    "age" : "15",
+    "favFood" : "Chicken",
+    "hairColor" : "Black",
+    "favSubject" : "Math",
+    "favSweet" : "Anything I bake",
+    "favHobbies" : ["Reading", "Writing", "Acting"],
+    "LikeCoding" : True
+}
 
 
 
