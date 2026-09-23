@@ -34,10 +34,10 @@ about_me = {
     "favSubject" : "Math",
     "favSweet" : "Anything I bake",
     "favHobbies" : ["Reading", "Writing", "Acting"],
-    "LikeCoding" : True
+    "LikeCoding" : True,
 }
 
-
+print(about_me)
 
 
 
@@ -52,6 +52,17 @@ about_me = {
 # 5. favActivity (which contains the value of your pets favourite activity)
 # 5. favFood (which contains the value of your pets favourite food)
 
+
+myPet = {
+    "name" : "Rj",
+    "breed" : "Maincoone",
+    "age" : "2",
+    "noise" : "Meow",
+    "favActivity" : "Sleeping",
+    "favFood" : "Catnip Plant"
+}
+
+
 # Then do the following:
 # A. Print the dictionary
 # B. Print the value of breed using the breed key
@@ -59,12 +70,13 @@ about_me = {
 # D. Add one new key-value pair then print the dictionary
 # E. Print the length of your dictionary
 # F. Change the value of one existing value then print the dictionary
-
-
-
-
-
-
+print(myPet)
+print(myPet["breed"])
+myPet.pop("favFood")
+myPet["enemies"] = "Other Cats"
+print(len(myPet))
+myPet["enemies"] = "My dad"
+print(myPet)
 
 
 # QUESTION #4: Create a dictionary called heights that 5 student names (keys) and their heights (values). 
@@ -74,7 +86,20 @@ about_me = {
 # D. Add one new key-value pair then print the dictionary
 # E. Print the length of your dictionary
 # F. Change the value of one existing value then print the dictionary
-
+heights = {
+    'Momina' : "5'3",
+    "Leomar" : "5'9",
+    "Tylar" : "5'4",
+    "Aniya" : "5'5",
+    "Adiel" : "5'5",
+}
+print(heights)
+print(heights["Leomar"])
+heights.pop("Adiel")
+heights["Sam"] = "5'9"
+print(len(heights))
+heights["Leomar"] = ".1 nano-inch"
+print(heights)
 
 
 
